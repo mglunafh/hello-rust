@@ -8,5 +8,13 @@ edition = "2018"
 ferris-says  = "0.1"
 
 [[bin]]
+name = "main"
+path = "src/01-main.rs"
+
+[[bin]]
 name = "structs"
 path = "src/02-structs.rs"
+
+[[bin]]
+name = "enums"
+path =  "src/03-enums.rs"
