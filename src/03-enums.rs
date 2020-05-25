@@ -22,6 +22,22 @@ fn inspect(event: WebEvent) {
     }
 }
 
+// aliases for enums
+enum VeryVerboseEnumDoToThingsWithNumbers {
+    Add,
+    Subtract
+}
+
+type Operations = VeryVerboseEnumDoToThingsWithNumbers;
+
+impl VeryVerboseEnumDoToThingsWithNumbers {
+    fn fun(&self, x: i32, y: i32) -> i32 {
+        match self {
+            Self::Add => x + y,
+            Self::Subtract => x - y
+        }
+    }
+}
 
 fn main() {
     let pressed = WebEvent::KeyPress('x');
@@ -36,4 +52,8 @@ fn main() {
     inspect(click);
     inspect(load);
     inspect(unload);
+
+    let t = Operations::Add;
+    let result = t.fun(15, 17);
+    println!("Result of Operations::Add is {}", result);
 }
