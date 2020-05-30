@@ -26,3 +26,7 @@ path = "src/04-linked_list.rs"
 [[bin]]
 name = "const"
 path = "src/05-constants.rs"
+
+[[bin]]
+name = "scopes"
+path = "src/06-scopes.rs"
