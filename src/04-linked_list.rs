@@ -2,7 +2,7 @@ use crate::List::*;
 
 enum List {
     // Box<T> is a smart pointer for an object that is to be allocated on the heap.
-    Node(u32, Box<List>),
+    Node(u32, Box<Box<List>>),
     Nil,
 }
 
@@ -13,13 +13,13 @@ impl List {
     }
 
     fn prepend(self, elem: u32) -> List {
-        Node(elem, Box::new(self))
+        Node(elem, Box::new(Box::new(self)))
     }
 
     fn len(&self) -> u32 {
         // It is preferred to match a concrete type T and not a reference &T
         match self {
-            Node(_elem, ref tail) => 1 + tail.len(),
+            Node(_elem, ref tail) => 1 + (*tail).len(),
             Nil => 0
         }
     }
@@ -35,7 +35,7 @@ impl List {
         match *self {
             Node(elem, ref tail) => {
                 // 'format!' returns heap-allocated string
-                format!("{}, {}", elem, tail.stringify())
+                format!("{}, {}", elem, (*tail).stringify())
             }
             Nil => format!("Nil!")
         }
