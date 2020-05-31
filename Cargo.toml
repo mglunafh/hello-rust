@@ -30,3 +30,7 @@ path = "src/05-constants.rs"
 [[bin]]
 name = "scopes"
 path = "src/06-scopes.rs"
+
+[[bin]]
+name = "types"
+path =  "src/07-types.rs"
