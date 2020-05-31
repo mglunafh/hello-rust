@@ -34,3 +34,7 @@ path = "src/06-scopes.rs"
 [[bin]]
 name = "types"
 path =  "src/07-types.rs"
+
+[[bin]]
+name = "conversion"
+path =  "src/08-conversion.rs"
