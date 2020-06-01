@@ -38,3 +38,7 @@ path =  "src/07-types.rs"
 [[bin]]
 name = "conversion"
 path =  "src/08-conversion.rs"
+
+[[bin]]
+name = "expr"
+path = "src/09.1-expressions.rs"
