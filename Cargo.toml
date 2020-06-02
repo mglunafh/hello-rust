@@ -46,3 +46,7 @@ path = "src/09.1-expressions.rs"
 [[bin]]
 name = "match"
 path = "src/09.2-expressions.rs"
+
+[[bin]]
+name = "destructure"
+path = "src/10-destructure.rs"
