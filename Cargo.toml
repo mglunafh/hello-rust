@@ -9,44 +9,44 @@ ferris-says  = "0.1"
 
 [[bin]]
 name = "main"
-path = "src/01-main.rs"
+path = "src/first-steps/01-main.rs"
 
 [[bin]]
 name = "structs"
-path = "src/02-structs.rs"
+path = "src/first-steps/02-structs.rs"
 
 [[bin]]
 name = "enums"
-path = "src/03-enums.rs"
+path = "src/first-steps/03-enums.rs"
 
 [[bin]]
 name = "list"
-path = "src/04-linked_list.rs"
+path = "src/first-steps/04-linked_list.rs"
 
 [[bin]]
 name = "const"
-path = "src/05-constants.rs"
+path = "src/first-steps/05-constants.rs"
 
 [[bin]]
 name = "scopes"
-path = "src/06-scopes.rs"
+path = "src/first-steps/06-scopes.rs"
 
 [[bin]]
 name = "types"
-path =  "src/07-types.rs"
+path =  "src/first-steps/07-types.rs"
 
 [[bin]]
 name = "conversion"
-path =  "src/08-conversion.rs"
+path =  "src/first-steps/08-conversion.rs"
 
 [[bin]]
 name = "expr"
-path = "src/09.1-expressions.rs"
+path = "src/first-steps/09.1-expressions.rs"
 
 [[bin]]
 name = "match"
-path = "src/09.2-expressions.rs"
+path = "src/first-steps/09.2-expressions.rs"
 
 [[bin]]
 name = "destructure"
-path = "src/10-destructure.rs"
+path = "src/first-steps/10-destructure.rs"
