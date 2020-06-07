@@ -50,3 +50,7 @@ path = "src/first-steps/09.2-expressions.rs"
 [[bin]]
 name = "destructure"
 path = "src/first-steps/10-destructure.rs"
+
+[[bin]]
+name = "sort-stalin"
+path = "src/sorts/stalin-sort.rs"
