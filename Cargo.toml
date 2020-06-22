@@ -62,3 +62,11 @@ path = "src/sorts/sort-testing.rs"
 [[bin]]
 name = "sort-bubble"
 path = "src/sorts/bubble-sort.rs"
+
+[[bin]]
+name = "functions"
+path = "src/first-steps/11.1-functions.rs"
+
+[[bin]]
+name = "methods"
+path = "src/first-steps/11.2-methods.rs"
