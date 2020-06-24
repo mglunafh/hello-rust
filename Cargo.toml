@@ -70,3 +70,7 @@ path = "src/first-steps/11.1-functions.rs"
 [[bin]]
 name = "methods"
 path = "src/first-steps/11.2-methods.rs"
+
+[[bin]]
+name = "closures"
+path = "src/first-steps/11.3-closures.rs"
