@@ -74,3 +74,7 @@ path = "src/first-steps/11.2-methods.rs"
 [[bin]]
 name = "closures"
 path = "src/first-steps/11.3-closures.rs"
+
+[[bin]]
+name = "higher_order_functions"
+path = "src/first-steps/11.n-higher-order-functions.rs"
