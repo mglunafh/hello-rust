@@ -14,7 +14,7 @@ fn variables() {
     let ushort = 5u16;
     let ulonglong = 5u128;
     let uresult = ulonglong + ushort as u128 + ubyte as u128;
-    println!("unsinged sum: {}", uresult);
+    println!("unsigned sum: {}", uresult);
 
     let character = 'a'; // 4 bytes Unicode scalar value
     println!("{}", character);

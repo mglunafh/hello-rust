@@ -78,3 +78,7 @@ path = "src/first-steps/11.3-closures.rs"
 [[bin]]
 name = "higher_order_functions"
 path = "src/first-steps/11.n-higher-order-functions.rs"
+
+[[bin]]
+name = "calc"
+path = "src/calculator/calc.rs"
